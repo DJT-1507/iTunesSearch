@@ -1,0 +1,90 @@
+/*Some really basic styling. self explanatory */
+
+body {
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+h3 {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 18px;
+}
+p {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+#searchSection {
+    background-color: #FFF;
+    border-bottom: 3px solid #9C9C9C;
+    padding: 30px 0;
+}
+#displaySection, #savedSection {
+    padding: 30px 0;
+}
+.bi-square {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.square-audioBook {
+    color: #F00;
+}
+.square-song {
+    color: #03AC13;
+}
+.square-podcast {
+    color: #3498DB;
+}
+.square-album {
+    color: #FF6;
+}
+.square-ebook {
+    color: #333;
+}
+.itemCard {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.audiobook {
+    border: 2px solid #F00;
+}
+.song {
+    border: 2px solid #03AC13;
+}
+.podcast {
+    border: 2px solid #3498DB;
+}
+.collection {
+    border: 2px solid #FF6;
+}
+.ebook {
+    border: 2px solid #333;
+}
+.saveIcon, .deleteIcon {
+    position: absolute;
+    z-index: 1;
+    font-size: 30px;
+    top: 0px;
+    right: 10px;
+    display: none;
+}
+.saveIcon {
+    color: #3498DB;
+}
+.deleteIcon {
+    color: #F00;
+}
+.saveIcon:hover, .deleteIcon:hover {
+    cursor: pointer;
+}
